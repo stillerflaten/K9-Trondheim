@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K9 Trondheim</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/logo.png" alt="Logo" width="150px">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="hunder.html">Hunder</a></li>
+                <li><a href="trening.html">Trening</a></li>
+                <li><a href="bilder.html">Bilder</a></li>
+                <li><a href="meg.html">Om meg</a></li>
+                <li><a href="#" class="signup">Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Kontakt meg</h2>
+        <div class="signup-form">
+            <form action="action_page.php">
+          
+              <label for="fname">First name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <br>
+              <label for="lname">Last name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <br>
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="norge">Norge</option>
+                <option value="sverige">Sverige</option>
+                <option value="danmark">Danmark</option>
+                <option value="finland">Finland</option>
+                <option value="uk">UK</option>
+                <option value="island">Island</option>
+              </select>
+              <br>
+              <label for="subject">Skriv her...</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+    </main>
+    
+</body>
+</html>
