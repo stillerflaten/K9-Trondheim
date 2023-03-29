@@ -59,7 +59,7 @@ main {
 }
 
 main h1 {
-    font-size: 54px;
+    font-size: 30px;
     color: black;
     text-transform: uppercase;
 }
@@ -85,7 +85,7 @@ main p {
 }
 
 .kontakt {
-    padding: 15px 30px;
+    padding: 10px 20px;
     background: goldenrod;
     color: white;
     outline: none;
